@@ -1,0 +1,13 @@
+{% extends 'blo/base.html' %}
+{% load crispy_forms_tags %}
+{% block content %}
+<h2> you have been logout</h2>
+
+<div class="border-top pt-3">
+<small class="text-muted">
+ <a  href={% url 'login' %}>sign in</a>
+</small>
+</div>
+
+
+{% endblock content %}
